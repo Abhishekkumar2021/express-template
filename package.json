@@ -1,5 +1,5 @@
 {
-  "name": "@abhishek_005/express-template",
+  "name": "@abhishek_005/express-server-template",
   "version": "1.0.0",
   "description": "A simple module for the starter code of express server.",
   "main": "index.js",
