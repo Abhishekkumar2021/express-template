@@ -14,7 +14,7 @@ const runCommand = command =>{
 
 const repoName = process.argv[2]
 const gitCheckout = `git clone https://github.com/Abhishekkumar2021/express-server-template ${repoName} `
-const removeExtra = `cd ${ repoName} && rm package.json README.md package-lock.json`
+const removeExtra = `cd ${ repoName} && rm package.json README.md package-lock.json -rf .git`
 const initGIT = `cd ${ repoName} && git init`
 const initNPM = `cd ${ repoName} && npm init -y`
 const installDependencies = ` cd ${ repoName} && npm i nodemon express dotenv body-parser cors mongoose`
