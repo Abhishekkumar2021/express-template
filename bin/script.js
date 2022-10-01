@@ -17,7 +17,7 @@ const gitCheckout = `git clone https://github.com/Abhishekkumar2021/express-serv
 const removeExtra = `cd ${ repoName} && rm package.json README.md package-lock.json`
 const initGIT = `cd ${ repoName} && git init`
 const initNPM = `cd ${ repoName} && npm init -y`
-const installDependencies = `npm i nodemon express dotenv body-parser cors mongoose`
+const installDependencies = ` cd ${ repoName} && npm i nodemon express dotenv body-parser cors mongoose`
 console.log(`Building started code for you in ${repoName}`)
 
 const checkedOut = runCommand(gitCheckout)
