@@ -1,0 +1,24 @@
+{
+  "name": "@abhishek_005/express-template",
+  "version": "1.0.0",
+  "description": "A simple module for the starter code of express server.",
+  "main": "index.js",
+  "bin": "bin/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishekkumar2021/express-template.git"
+  },
+  "keywords": [
+    "express",
+    "starter-template"
+  ],
+  "bugs": {
+    "url": "https://github.com/Abhishekkumar2021/express-template/issues"
+  },
+  "homepage": "https://github.com/Abhishekkumar2021/express-template#readme",
+  "author": "Abhishek kumar",
+  "license": "ISC"
+}
