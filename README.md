@@ -1,7 +1,10 @@
-echo "# express-template" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Abhishekkumar2021/express-template.git
-git push -u origin main
+# express-template
+
+## How to use?
+### Just run the command -
+```
+npx @abhishek_005/express-template <project-name>
+```
+### Here *project-name* is whatever you want to provide.
+
+> **Thanks**
